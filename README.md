@@ -52,4 +52,14 @@ From this directory the .dat files will be read to process all the 2D plots.
   directory with the results in the last timestep for the simulation with the NACA0018 at 0° of AoA.
 
 
+
+
+
+
+
+NACA0018_solid_0deg_LINUX_Githubv1_postprocess/post_process/
+
+
+
+
   
