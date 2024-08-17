@@ -1,0 +1,124 @@
+{
+  "type": "postprocess_input",
+  "name": "",
+  "description": "Example Py4Incompact3D Postprocess Input file",
+  "mesh": {
+    "type": "mesh",
+    "name": "mesh_example",
+    "description": "Mesh example",
+    "properties": {
+      "Nx": 1351,
+      "Ny": 649,
+      "Nz": 12,
+      "Lx": 10.0,
+      "Ly": 10.0,
+      "Lz": 0.166666666,
+      "BCx": 2,
+      "BCy": 1,
+      "BCz": 0,
+          "beta": 0.25,
+          "stretched": 1
+    }
+  },
+	"umean": {
+		"type": "data",
+		"name": "umean",
+		"description": "Mean x velocity",
+		"properties": {
+			"filename": "./statistics/umean.dat",
+			"direction": [0]
+			}
+		},
+	"vmean": {
+		"type": "data",
+		"name": "vmean",
+		"description": "Mean y velocity",
+		"properties": {
+			"filename": "./statistics/vmean.dat",
+			"direction": [0]
+    		}
+    	},
+	"wmean": {
+		"type": "data",
+		"name": "wmean",
+		"description": "Mean z velocity",
+		"properties": {
+			"filename": "./statistics/wmean.dat",
+			"direction": [0]
+    		}
+
+    	},
+   	"pmean": {
+   		"type": "data",
+   		"name": "pmean",
+   		"description": "Mean p pressure",
+   		"properties": {
+   			"filename": "./statistics/pmean.dat",
+   			"direction": [0]
+       		}
+       	},	
+ 	"uumean": {
+ 		"type": "data",
+   		"name": "uumean",
+   		"description": "Mean uu Re stress",
+  		"properties": {
+		"filename": "./statistics/uumean.dat",
+    	"direction": [0]
+           		}   	
+
+       	},
+ 	"vvmean": {
+ 		"type": "data",
+   		"name": "vvmean",
+   		"description": "Mean vv Re stress",
+  		"properties": {
+		"filename": "./statistics/vvmean.dat",
+    	"direction": [0]
+           		}   	
+
+       	},
+ 	"wwmean": {
+ 		"type": "data",
+   		"name": "wwmean",
+   		"description": "Mean ww Re stress",
+  		"properties": {
+		"filename": "./statistics/wwmean.dat",
+    	"direction": [0]
+           		}   	
+
+       	},       	
+ 	"uvmean": {
+ 		"type": "data",
+   		"name": "uvmean",
+   		"description": "Mean uv Re stress",
+  		"properties": {
+		"filename": "./statistics/uvmean.dat",
+    	"direction": [0]
+           		}   	
+
+       	},
+ 	"uwmean": {
+ 		"type": "data",
+   		"name": "uwmean",
+   		"description": "Mean uw Re stress",
+  		"properties": {
+		"filename": "./statistics/uwmean.dat",
+    	"direction": [0]
+           		}   	
+
+       	},
+ 	"vwmean": {
+ 		"type": "data",
+   		"name": "vwmean",
+   		"description": "Mean vw Re stress",
+  		"properties": {
+		"filename": "./statistics/vwmean.dat",
+    	"direction": [0]
+           		}   	
+
+       	}              	        	         	
+       	
+    	
+	
+}
+
