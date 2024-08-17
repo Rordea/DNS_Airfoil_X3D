@@ -59,6 +59,17 @@ From this directory the .dat files will be read to process all the 2D plots.
 
 NACA0018_solid_0deg_LINUX_Githubv1_postprocess/post_process/
 
+-> Fields_and_quantities_Cp.py
+    This code plots slices of mean variables and post-process umean, vmean.wmean and pmean. It extracts data and writes the velocity profiles.
+    It also extracts the Cp plots and write the information
+
+
+-> Anergy_Exergy.py
+    This code does all the needed calculations to plot the energy methods. Interpolates cell faces values, volume values, plots the interpolated coordinates.
+    Calculates rate of strain tensor, reynolds stresses, gradients and integrates the variables.
+    NOTE: THE INTEGRATION FUNCTION MIGHT HAVE AN ERROR. 
+
+
 
 
 
